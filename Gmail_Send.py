@@ -20,7 +20,7 @@ def send_email(user, pwd, recipient, subject, body):
         server.close()
         print 'successfully sent the mail'
     except:
-        print "failed to send mail"
+        print "failed to send mail-Yo"
 
 
 send_email('kajari.gupta@gmail.com', 'simpletonmamma', 'siddharthsatpathy.ss@gmail.com', 'Coma Working', 'I love Python!')  
